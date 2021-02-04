@@ -1,0 +1,25 @@
+#appBarContainer{
+    text-align: center;
+    background-color: #00BFFF;
+    width: 100%;
+    padding: 2rem;
+}
+
+.appBarText{
+    color:white;
+    font-family: "Segoe UI";
+    font-size: 3rem;
+    font-weight: bold;
+    word-wrap: break-word;
+    word-break: break-all;
+    cursor: pointer;
+}
+
+.appBarTextSmall{
+    color:white;
+    font-family: "Segoe UI";
+    font-size: 2rem;
+    font-weight: bold;
+    word-wrap: break-word;
+    word-break: break-all;
+}

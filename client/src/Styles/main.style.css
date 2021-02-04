@@ -1,0 +1,99 @@
+.fullWidth{
+    width:100%;
+}
+
+.centerAlign{
+    text-align: center;
+}
+
+.simpleContainerBlue{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #00BFFF;
+    text-align: center;
+    padding: 2rem;
+}
+
+.simpleContainerWhite{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    text-align:  center;
+    padding: 2rem;
+}
+
+.titleWhite{
+    color:white;
+    font-family: "Segoe UI";
+    font-size: 10rem;
+}
+
+.titleBlue{
+    color:#00BFFF;
+    font-family: "Segoe UI";
+    font-size: 10rem;
+}
+
+.textWhite{
+    color:white;
+    font-family: "Segoe UI";
+    font-size: 3rem;
+    word-break:keep-all
+}
+
+.textBlue{
+    color:#00BFFF;
+    font-family: "Segoe UI";
+    font-size: 3rem;
+    word-break: keep-all;
+}
+
+.labelTextBlue{
+    color:#00BFFF;
+    font-family: "Segoe UI";
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+input{
+    width:100%;
+    color:#00BFFF;
+    font-weight: bold;
+}
+
+button{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+
+.whiteButton{
+    color:white;
+    border-color:white;     
+}
+
+.whiteButton:hover{
+    color:#00BFFF;
+    background-color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .titleBlue,.titleWhite{
+        font-size: 3rem;
+    }
+
+    .textBlue,.textWhite{
+        font-size: 2rem;
+    }
+
+    
+  }
